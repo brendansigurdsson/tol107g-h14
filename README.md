@@ -2,7 +2,7 @@
 
 ## Keyrsla
 
-Skrifa skal eftirfarandi í console til að keyra vefsíðuna á server:
+Skrifa skal eftirfarandi í console til að keyra vefsíðuna á local server:
 ```console
 npm run dev
 ```
