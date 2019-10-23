@@ -6,7 +6,6 @@ Keyra skal eftirfarandi í console til að keyra vefsíðuna á live server:
 ```console
 browser-sync.cmd
 ```
-í console til að keyra vefsíðuna á live server.
 Ef ekki er búið að "install-a" browser-sync á vefsíðuna skal keyra í console:
 ```console
 npm install -g browser-sync
