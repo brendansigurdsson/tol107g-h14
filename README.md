@@ -11,6 +11,8 @@ Ef ekki er búið að "install-a" browser-sync á vefsíðuna skal keyra í cons
 npm install -g browser-sync
 ```
 
+***
+
 # Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
