@@ -2,13 +2,9 @@
 
 ## Keyrsla
 
-Keyra skal eftirfarandi í console til að keyra vefsíðuna á live server:
+Skrifa skal eftirfarandi í console til að keyra vefsíðuna á server:
 ```console
-browser-sync.cmd
-```
-Ef ekki er búið að "install-a" browser-sync á vefsíðuna skal keyra í console:
-```console
-npm install -g browser-sync
+npm run dev
 ```
 
 ***

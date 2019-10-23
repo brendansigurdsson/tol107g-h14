@@ -4,7 +4,11 @@
   "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "node-sass styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css",
+    "dev": "npm-run-all --parallel lint sass-watch browser-sync",
+    "lint": "stylelint styles.scss --syntax scss"
   },
   "repository": {
     "type": "git",
@@ -12,6 +16,16 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@primer/css": "^13.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "stylelint": "^10.0.0",
+    "stylelint-config-primer": "^8.2.1"
+  },
   "bugs": {
     "url": "https://github.com/brendansigurdsson/tol107g-h14/issues"
   },
