@@ -1,3 +1,8 @@
+Keyra skal:
+```console
+browser-sync.cmd
+```
+í console til að keyra vefsíðuna á live server.
 
 # Hópverkefni 1
 
