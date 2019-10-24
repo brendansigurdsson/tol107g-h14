@@ -96,5 +96,16 @@ footer {
   justify-content: center;
 }
 
+.button {
+  border-radius: 2.5px;
+  border-color: black;
+  border: solid;
+
+}
+.button:hover {
+background-color: #00b7ff;
+border: none;
+}
+
 // TODO sækja allar sass skrár
 @import "scss/config.scss";
