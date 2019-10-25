@@ -38,7 +38,6 @@ main {
 .grid__col {
   width: 50%;
   padding-right: 10px;
-  padding-left: 10px;
 }
 
 .grid__row-3 {
@@ -103,9 +102,31 @@ footer {
 
 }
 .button:hover {
-background-color: #00b7ff;
-border: none;
+  background-color: #00b7ff;
+  border: none;
 }
 
+.card {
+  min-width: 100%;
+}
+
+.cards {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+
+}
+
+.cards>.card {
+  flex: 0 50%;
+  box-sizing: border-box;
+}
+.grid__row-6 {
+  max-width: 2500px;
+  display: flex;
+}
 // TODO sækja allar sass skrár
 @import "scss/config.scss";
