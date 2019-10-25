@@ -9,6 +9,30 @@ npm run dev
 
 ***
 
+## Uppsetning verkefnis
+
+Verkefninu er skipt upp í fimm html síður og fjórar þeirra eru geymdar í möppu sem heitir _pages_ en forsíðan er sér. Svo erum við með `styles.scss` skrá sem er svo þýdd með sass yfir í css þegar vefsíðan er keyrð. 
+Við höfum einnig `package.json` skrá sem heldur utan um alla npm pakkana okkar og `package-lock.json` skrá sem inniheldur allar upplýsingarnar um pakkana.
+Í `.gitignore` skránni erum við með allar þær skrár/möppur sem við viljum að Git láti vera, t.d `styles.css` og `node_modules` mappan.
+
+
+## Hópmeðlimir
+
+Við sem unnum að þessu verkefni heitum:
+
+**Brendan Sigurðsson**
+rbb14@hi.is
+_Dæmatímahópur_ : 3
+
+**Júlía Jakobsdóttir**
+juj7@hi.is
+_Dæmatímahópur_ : 2
+
+**Valgeir Sigurðsson**
+vas32@hi.is
+_Dæmatímahópur_ : 2
+
+
 # Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
