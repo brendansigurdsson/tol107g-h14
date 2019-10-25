@@ -1,0 +1,24 @@
+.grid__button {
+    padding: 10px 80px;
+    background-color: $blue;
+    border: none;
+    border-radius: 3px;
+}
+  
+.grid__button:hover {
+    color: $white;
+    background-color: $orange;
+}
+  
+.grid__button2 {
+    border: solid;
+    border-color: $black;
+    border-width: 1px;
+    border-radius: 2.5px;
+}
+  
+.grid__button2:hover {
+    background-color: $blue;
+    border: none;
+}
+  

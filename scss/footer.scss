@@ -1,0 +1,38 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: $blue;
+    background-size: cover;
+}
+  
+.footer__grid {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__heading {
+    font-size: 1.3125;
+    font-weight: bold;
+}
+  
+.footer__links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+  
+.footer__link {
+    padding-bottom: 10px;
+}
+  
+.footer__link a:link {
+    color: $white;
+    text-decoration: none;
+}
+  
+.footer__cr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
