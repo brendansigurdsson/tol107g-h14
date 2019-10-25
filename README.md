@@ -20,17 +20,17 @@ Við höfum einnig `package.json` skrá sem heldur utan um alla npm pakkana okka
 
 Við sem unnum að þessu verkefni heitum:
 
-**Brendan Sigurðsson**
-rbb14@hi.is
-_Dæmatímahópur_ : 3
+**Brendan Sigurðsson:**
+rbb14@hi.is, 
+_dæmatímahópur_ : 3
 
-**Júlía Jakobsdóttir**
-juj7@hi.is
-_Dæmatímahópur_ : 2
+**Júlía Jakobsdóttir:**
+juj7@hi.is,
+_dæmatímahópur_ : 2
 
-**Valgeir Sigurðsson**
-vas32@hi.is
-_Dæmatímahópur_ : 2
+**Valgeir Sigurðsson:**
+vas32@hi.is,
+_dæmatímahópur_ : 2
 
 
 # Hópverkefni 1
