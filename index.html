@@ -11,8 +11,8 @@
 </head>
 
 <body>
-  <header>
-    <div>
+  <header class="header">
+    <div class="nav__heading">
       <h1>Prílihúsið</h1>
     </div>
     <div>
@@ -20,7 +20,7 @@
         <li class="navbar__link"><a href="index.html">FORSÍÐA</a></li>
         <li class="navbar__link"><a href="pages/products.html">VÖRUR</a></li>
         <li class="navbar__link"><a href="pages/course.html">NÁMSKEIÐ</a></li>
-        <li class="navbar__link"><a href="pages/staff.html">STARFSFÓLK</a></li>      
+        <li class="navbar__link"><a href="pages/staff.html">STARFSFÓLK</a></li>
         <li class="navbar__link"><a href="pages/cart.html">Karfa (6)</a></li>
         <img src="img/cart.svg">
       </ul>
@@ -34,7 +34,9 @@
         </div>
         <div class="grid__col">
           <div class="grid__text">
-            <h2>Allar vörurnar</h2>
+            <div class="grid__heading">
+              <h2>Allar vörurnar</h2>
+            </div>
             <p>Prílihúsið hefur allar þær vörur sem þig vantar fyrir klifrið.</p>
           </div>
           <div>
@@ -45,7 +47,9 @@
       <div class="grid__row">
         <div class="grid__col">
           <div class="grid__text">
-            <h2>Besta starfsfólkið</h2>
+            <div class="grid__heading">
+              <h2>Besta starfsfólkið</h2>
+            </div>
             <p>Starfsfólkið okkar hugsar vel um þig.</p>
           </div>
           <div>
@@ -58,10 +62,12 @@
       </div>
     </div>
   </main>
-  <footer>
+  <footer class="footer">
     <div class="grid__row-3">
       <div class="grid__col-3">
-        <h3>Vöruflokkar</h3>
+        <div class="footer__heading">
+          <h3>Vöruflokkar</h3>
+        </div>
         <ul class="footer__links">
           <li class="footer__link"><a href="pages/products.html">Nauðsynjavörur</a></li>
           <li class="footer__link"><a href="pages/products.html">Frábærar vörur</a></li>
@@ -72,7 +78,9 @@
       </div>
 
       <div class="grid__col-3">
-        <h3>Vöruflokkar</h3>
+        <div class="footer__heading">
+          <h3>Vöruflokkar</h3>
+        </div>
         <ul class="footer__links">
           <li class="footer__link"><a href="pages/products.html">Trylltar vörur</a></li>
           <li class="footer__link"><a href="pages/products.html">Geggjaðar vörur</a></li>
@@ -83,7 +91,9 @@
       </div>
 
       <div class="grid__col-3">
-        <h3>Námskeið</h3>
+        <div class="footer__heading">
+          <h3>Námskeið</h3>
+        </div>
         <ul class="footer__links">
           <li class="footer__link"><a href="pages/course.html">V0 - V1 námskeið</a></li>
           <li class="footer__link"><a href="pages/course.html">V2 - V4 námskeið</a></li>
@@ -93,7 +103,9 @@
       </div>
 
       <div class="grid__col-3">
-        <h3>Síður</h3>
+        <div class="footer__heading">
+          <h3>Síður</h3>
+        </div>
         <ul class="footer__links">
           <li class="footer__link"><a href="pages/products.html">Allar vörur</a></li>
           <li class="footer__link"><a href="pages/staff.html">Starfsfólk</a></li>
@@ -102,7 +114,7 @@
         </ul>
       </div>
     </div>
-    <div class="copyright">
+    <div class="footer__cr">
       <p>© 2019 Prílihúsið</p>
     </div>
   </footer>

@@ -1,5 +1,10 @@
 @import "scss/config";
 
+$orange: #ff5000;
+$blue: #00b7ff;
+$black: #000;
+$white: #fffcf2;
+
 * {
   padding: 0;
   margin: 0;
@@ -16,163 +21,169 @@ html { /* stylelint-disable-line */
   overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 16px;
 }
 
-main {
+.grid {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-header {
-  background-color: #ff5000;
-  background-size: cover;
+.header {
   padding: 20px;
-}
-
-footer {
-  background-color: #00b7ff;
+  background-color: $orange;
   background-size: cover;
-  margin: 0px auto;
+}
+
+.footer {
   padding: 40px;
+  margin: auto;
+  background-color: $blue;
+  background-size: cover;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  font-family: 'Oswald', Verdana, arial, sans-serif;
-  font-size: 48px;
+.grid__heading {
+  margin-bottom: 40px;
+  font-family: Oswald, Verdana, arial, sans-serif;
+  font-size: 1.5rem;
 }
 
-h2 {
-  font-family: 'Oswald', Verdana, arial, sans-serif;
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 21px;
-  font-weight: bold;
+.grid__text {
+  margin-bottom: 40px;
+  font-size: 1.5em;
 }
 
 .grid__row {
   display: flex;
-  margin: 20px 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   flex-direction: row;
-
 }
 
 .grid__col {
   width: 50%;
-  padding-right: 10px;
-  padding-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .grid__row-3 {
-  max-width: 1200px;
-  margin: 0px;
   display: flex;
+  max-width: 1200px;
   margin: auto;
 }
 
 .grid__col-3 {
-  width: 27%;
+  width: 25%;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .grid__image {
   max-width: 100%;
+}
+
+.nav__heading {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
+  font-family: Oswald, Verdana, arial, sans-serif;
+  font-size: 2em;
 }
 
 .navbar__links {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   list-style: none;
   list-style-type: none;
 }
 
 .navbar__link {
-  padding: 0px 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.navbar__link a:link {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
+.navbar__link:link {
   font-size: 14px;
+  font-weight: bold;
+  color: $black;
+  text-decoration: none;
 }
 
-.navbar__link a:active {
+.navbar__link:active {
   text-decoration: underline;
 }
 
+.footer__heading {
+  font-size: 1.3125;
+  font-weight: bold;
+}
+
 .footer__links {
+  padding-top: 20px;
+  padding-bottom: 20px;
   list-style: none;
-  padding: 20px 0;
 }
 
 .footer__link {
   padding-bottom: 10px;
 }
 
-.footer__link a:link {
-  color: white;
+.footer__link:link {
+  color: $black;
   text-decoration: none;
 }
 
-.copyright {
+.footer__cr {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .grid__button {
-  background-color: #00b7ff;
-  border: none;
-  border-radius: 3px;
   padding: 10px 50px;
-  margin-top: 20px;
+  background-color: $blue;
+  //border: none;
+  border-radius: 3px;
 
 }
 
 .grid__button:hover {
-  background-color: #ff5000;
-  color: white;
+  color: $white;
+  background-color: $orange;
 }
 
 .grid__button2 {
-  border-radius: 2.5px;
-  border-color: black;
   border: solid;
-  border-width:1px;
-
+  border-color: $black;
+  border-width: 1px;
+  border-radius: 2.5px;
 }
+
 .grid__button2:hover {
-  background-color: #00b7ff;
-  border: none;
+  background-color: $blue;
+  //border: none;
 }
-
 
 .card {
   min-width: 100%;
 }
 
 .cards {
-  text-align: center;
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
 }
 
-.cards>.card {
+.cards > .card {
   flex: 0 50%;
   box-sizing: border-box;
 }
 
 .grid__row-6 {
-  max-width: 2500px;
   display: flex;
+  max-width: 2500px;
 }
-
 
 // TODO sækja allar sass skrár
 @import "scss/config.scss";
